@@ -1,0 +1,41 @@
+{
+  "name": "crypto-index-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "module": "esm",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch ./src/index.ts",
+    "start": "npx tsx ./src/index.ts",
+    "lint": "eslint",
+    "format": "prettier -w ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.1",
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "@typescript-eslint/eslint-plugin": "^8.18.0",
+    "@typescript-eslint/parser": "^8.18.0",
+    "eslint": "^9.17.0",
+    "globals": "^15.13.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.0"
+  },
+  "dependencies": {
+    "@types/lowdb": "^1.0.15",
+    "bybit-api": "^3.10.27",
+    "cron": "^3.3.1",
+    "dotenv": "^16.4.7",
+    "i": "^0.3.7",
+    "lowdb": "^7.0.1",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "npm": "^11.0.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2"
+  }
+}
